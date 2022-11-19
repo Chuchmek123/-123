@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазинчик</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
+</head>
+
+<body>
+
+
+    <h1>Магазин одежды "Найс"</h1>
+    <nav id="menu1">
+        <ul>
+            <li><a href="#m1">Штаны</a>
+                <ul>
+                    <li><a href="джинсы.html">Джинсы</a></li>
+                    <li><a href="Лосины.html">Лосины</a></li>
+                </ul>
+            </li>
+            <li><a href="#m2">Свитеры</a>
+                <ul>
+                    <li><a href="водолазки.html">Водолазки</a></li>
+                    <li><a href="толстовки.html">Толстовки</a></li>
+                </ul>
+            </li>
+            <li><a href="#m3">Футболки</a>
+                <ul>
+                    <li><a href="Футболки полностью из хлопка.html">Футболки полностью из хлопка</a></li>
+                    <li><a href="футболки из синтетики.html"></a>футболки из синтетики</li>
+
+                </ul>
+            </li>
+            <li><a href="#m4">Майки</a>
+                <ul>
+                    <li><a href="Cutoff shirt.html">Cutoff shirt</a></li>
+                    <li><a href="Sleeveless shirt.html">Sleeveless shirt</a></li>
+                </ul>
+            </li>
+            <li><a href="#m5">Куртки</a>
+                <ul>
+                    <li><a href="Бомберы.html">Бомберы</a></li>
+                    <li><a href="Ветровки.html">Ветровки</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+    </header>
+
+    <div class="carousele">
+        <div class="slide">
+            <iframe src="https://www.youtube.com/embed/aDxIp_bCDBA"></iframe>
+        </div>
+        <div class="slide">
+            <img src="https://trashbox.ru/files/1144030_ffd93c/0.jpg-orig.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousele').slick({
+            });
+        })
+    </script>
+</body>
+
+</html>
